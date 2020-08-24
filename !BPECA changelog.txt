@@ -1,0 +1,298 @@
+----------------------------------------------------- Bugfixes.---------------------------------------------------------------------
+
+Removed FX from tear gas shell detonation. - trying to find the reason for tear gas crash.
+Bugfixes:
+Leopards do not automatically use canister rounds vs infantry after GIR upgrade.
+Bloodhounds with Revolver guns do not get massive ROF boost from being under tear gas effect anymore.
+==================================================================== GROUND UNITS ==========================================================
+
+Dogs built in pair with double buildtime. This is specifically to fix early game in ECA-GLA matchups.
+Dog vision range reduced from 500 to 350. (same level as USA Recon drone).
+Dogs received no changes to experience values given to opponent upon destruction.
+
+Panzerfaust DBS from 2600 to 2000 total. (ExoPanzerfaust - from 1300 to 1000).
+Panzerfaust Vacuum gun preattack delay from 1500 to 1000
+Panzerfaust Vacuum gun ClipReloadTime from 1500 to 2000
+
+Pioneer cost from 700$ to 600$.
+Pioneers start with mortar weapon instead of assault rifle. (Credits: Hanfield)
+
+Grenadiers: pending change.
+
+Jaeger sniper rifle minrange reduced from 120 to 40.
+Jaeger Sabotage PreAttackDelay from 5676 to 4676. 
+Jaeger Sabotage DelayBetweenShots from 4290 to 5290 
+Not sure yet, could have side effects, but those should be minor enough.
+
+Jumpjet Trooper can now be damaged by HACK based AA weaponry (no Tier 2 AA has HACK in their main weapon).
+
+Dozer cost from 1000 to 900.
+Dozer turn rate increased from 75 to 90
+ECA dozers benefit from Armor Skirts upgrade, +50% health.
++Dozers receive additional +25% health if Manticore protocol is researched.
+
++ECA Supply Trucks from 500$ to 750$.
+
+--------------------------------------------------------------------------------------------
+GAS IGNITION ROUND RESCALE (touches alot of stuff so listed in Vehicles, instead of Upgrades).
+Gas Ignition Round tooltip changed from "+25% range" to "+10% range"
+Leos Pre-Upgrade range from 190 to 210.(both maingun and canisters) 
+Leopard Post-upgrade range unchanged.
+DigoutLeopard Pre-Upgrade range from 220 to 240. 
+PLAYER_UPGRADE RANGE from 120% to 110%.
+
+Jagdmammut Pre-Upgrade range from 210 to 235. (both mainguns and penetrators)
+Jagdmammut post-upgrade range unchanged.
+
+Gun Turret pre-upgrade range from 220 to 255.
+Gun Turret post-upgrade range from 270 to 280.
+
+Manticore pre-upgrade Gun, Missile, Autocannon range from 200 to 225. (from 210 to 235 on autocannon).
+Post-upgraded values unchanged.
+
+Warhound pre-upgrade range from 220 to 240. 
+Post-upgrade range unchanged.
+------------------------------------------------------------------------------------------------------------
+
+-Bloodhound buildtime from 12 to 15.
+-Bloodhounds in Field Command require Solar Reactor. Warfactory Bloodhound construction requirements are unchanged.
+-In other words, now there's 5.0 seconds window of opportunity when Chaff is on cooldown, as opposed to original 1.7 seconds.
+
+-Bloodhound & Supply/Munitions Track Chaff cooldown from 7 to 10.3 seconds. 
+
+-Lynx cost from 500$ to 450$. More of psychological change.
+
+Leopards available by default.
+Leopard Vision + Shroud clearing range from 200 to 240. (10 above their upgraded range)
+Leopard vision range was not enough to cover it's firing range.
+
+Pandurs rollback to previous build. I.e., they require Tier 1 now.
+
++Moleminer mine model changed with different one from ZH, should provide noticeable performance increase on old systems. 
+
+Warhounds
+-Cost from 1000$ to 1200$.
+-Secondary Damage from 15 to 35.
+-Secondary damage changed from 35 to 60.
+-Secondary Damage AOE from 60 to 35.
+-Repair radius increased from 80 to 110. (by 37%)
+Warhound weapon timeout after digging in from 3 to 6 seconds. You can't dig in right in the middle of a fight and expect them to instantly become operational.
+Warhound default health from 200 to 500.
+Warhound digged-in health bonus from 400 to 100.
+Warhound health bonus from Armor Skirts from 100 to 150. (proper 25%).
+Warhound C4 ability locked behind Munitions GP.
+Warhound C4 cooldown from 12 to 25 seconds.
++Warhounds can be built in Regional Command or Munition Bunkers. Still require Field Command.
+Warhounds now properly react to enemies while under stealth (Credits: hanfield)
+
+Jagdmammut requires Bundeswehr Elites. (= Field Promotion).
+Jagdmammut transport slots (MG) disabled as temporary bugfix.
+Jagdmammut stealthed when standing still and not firing.
+Jagdmammut vision range from 200 to 260.
+Jagdmammut cost from 1300 to 1200.
+Jagdmammut buildtime from 30 to 24.
+Jagdmammut Hydrogen fuel cell speed from 35 to 28, turn rate from 80 to 75.
+
+-Mortar Tracks receive +20% range from Gas Ignition upgrade, including their battlenetwork mode. 
+-Mortar Tracks base ROF is equal to previos COntinuous Fire 1.
+-They amount of shots to reach continuous Fire 1 from 4 to 8. It gives further +50% ROF increase.
+-Continuos Fire 2 disabled.
+-Mortar Track deploy time from 1.6 seconds to 1 second.
+-Mortar Track Battlenetwork ability and upgrade removed. (Massive FPS drop)
+-Mortar Track damage type changed from EXPLOSION to AURORA_BOMB to compensate for their loss of Battlenetwork. (double dmg vs buildings)
+-MortarTrack armorset from TankArmor to ERATankArmor.
+This is now a highly efficient siege unit, among highest ranges among all of them, resistant to explosion damage, very high dps vs buildings.
+
+
+-Their internal cost is properly equalized with the real cost (matters for GLA Bounties only).
+-Mortar Trucks cannot enter digouts anymore.
+
+-Claymore speed increase from 20 to 24, SpeedDamaged from 18 to 22.
+-Claymore turn rate increase from 50 to 60.
+-Claymore Acceleration Damaged from 8 to 12.
+
+-Wotan Array minrange from 150 to 100.
+-Wotans now properly react to enemies while under stealth.
+-Heroic Wotans do not have minimum firing range.
+-Wotan Array speed from 30 to 40.
+-Wotan Array turn rate from 90 to 130. 
+Wotans are already performing very fine against normal aircraft - hence changing their damage values or range any further wasn't an option.
+ but at same time they noticeably underperform vs GP Planes, without excelling at much else.  So instead this unit is given it's own identity and advantages over other T2 AA,
+making it the most mobile T2 AA out of them all, which helps to keep up with the rest of ECA's ground force when it decides to go on offensive and properly positioning Wotans for GP Plane kill.
+
+
+
+
+Mammoth Tank added, requires Rank 3 GP. Available for construction from R&D Compound only."Very Heavy Tank" class, same overall balancing parameters as Leopards.
+(CREDITS: Enigma (author of "Babushka Revenge" modification for Rise of the Reds) for ECA colors, voicing taken from Shockwave mod)
+Gameplay wise, these things allow for a new combinations in GP tree development for ECA players that went more agressive route upon reaching mid- and early late-game.
+This unit does (should-) not break the general weaknesses and strengths of the faction, as per combination of price, firepower, range and other stats this is not an Overlord equivalent. 
+Also consider this as a tribute to original GDI Mammoth Tank.
+
+
+==================================================================== BUILDINGS ==========================================================
+-Barracks from 500 to 400$
+
+-Vehicle Assembly cost from 2500$ to 2000$. ECA's buildtimes and available options put enough limit on it's offensive capabilities, hence Vehicle Assemblies are now cheaper.
+-Vehicle Assembly can produce Bloodhounds and Mole Minelayers.
+
+
+-Guard Tower vision range increased from 360 to 400. (10% above average among defenses) 
+It's a tower, after all.
+
+
+-Fortifications require barracks.
+-Fortification buildtime from 5 to 10 seconds.
+-Reinforced Fortifications do not require an unlock. (Still require Solar Reactor).
+-Reinforced Fortifications and Fortifications slot count from 3 to 4. 
+-Fortifications, Open Top Fortifications and Reinforced Fortifications health increase by 14%. NHawks still OHKO basic forts.
+-Engineering Fortifications repair speed brought up to MTP level.
+
+Makes Fortification-oriented playstyle viable. (In comparison to Gun Turret oriented defense lines). Without default Reinforced Forts, fortifications were rarely used as frontline defenses due to their vulnerability to garrison-clearing weaponry.
+
+-Region Command cannot be captured. Fuck you Lotus, this is a defense building, you have no power here.
+
+Digouts require Solar Reactor to be constructred.
+Digout Leopard gun damage from 80 to 60 (base leopard damage).
+Digout Gepard damage from 9.6/14.4 to 9.0/13.0 (base Gepard damage).
+Digout upgraded Gepard damage from 12/16.8 to 9/13 (upgraded Gepard base damage).
+Digouts do not heal units in them anymore.
+Digout health from 1000 to 800.
+Digout damage to vehicles upon destruction from 66% to 15%.
+Digout price from 400 to 150.
+Digout buildtime from 12 to 5 (equalized with Fortification).
+Digouts cannot house Mortar Tracks anymore.
+As a result, digout micro requirements for efficient use were significantly reduced.
+
+Solar Reactor damage received from JET_MISSILES from 100% to 80%.
+So that 2 airfields of full upgraded raptors cant simply OHKO a Solar in teamgame.
+
+OpenTop fortification price reduced from 300 to 0. Could be reverted back to 100-150 if will end up too imba.
+
+Gun Turrets do not require Forward Defences for Penetrator rounds.
+Gun Turret Penetrator Rounds damage type from ARMOR_PIERCING to STEALTHJET_MISSILES (cannot damage buildings)
+
+HOWITZER EXPERIMENT. Keep in mind, that Howitzer shows old range on the minimap- that one takes time to change, so until range gets finalized i'm not touching it.
+Howitzer maxrange reduced by 25%. (from 1500 to 1125)
+Howitzer minrange reduced by 20% (from 500 to 400)
+Howitzer price from 2500 to 2250.
+Howitzer buildtime from 40 to 35 seconds. 
+Howitzer scatter radius from 100 to 70. (massively reduces the probability of missing their target, makes howitzers less RNG based).
+Howitzer TurnRate from 50 to 75.
+Howitzer health from 1500 to 1350.
+
+-Telecom Towers income rollback to 1.86 values. 1.87 buff was unreasonable. (from 2.5 sec delay to 2.75 sec delay).
+Telecom Tower buildtime from 16 to 24 seconds. In line with other secondary eco.
+Telecom Towers are now considered as hostile objects and are engaged automatically by combat units and defenses.
+Telecom Towers require Satellite Relay.
+
+
+-Satellite Uplink produces income equal to 3 Telecom Towers.
+-Satellite Uplink map reveal comes with a sound alarm. The one you can actually hear during intense battle.
+
+-Munitions Bunker build limit from 3 to 4.
+Munition bunkers and Trucks affect all defenses.
+Munition bunkers and Trucks provide +40% damage to Guard Towers, Kashtans, Gattlings, INSTEAD of +20% ROF +20% Dmg. Done because latter do not properly benefit from ROF bonuses.
+Munition bunkers may now construct dozers and warhounds, as such they can partially substitute FieldComs.
+
+
+Mortar Pit projectile speed from 200 to 280 (old RGO numbers, worked pretty well back in the day).
+Mortar Pit health from 1000 to 810.
+
+Grand Mortar MaxRange from 450 to 320. (Rocket buggy = 350).
+Grand Mortar MinRange from 200 to 85.
+Grand Mortar cost from 2000 to 2500$
+Grand Mortar health from 1400 to 1650.
+Grand Mortar primary AOE from 15 to 30.
+Grand Mortar secondary AoE Damage from 75 to 125.
+Was underperforming against ground targets.
+Grand Mortar does not require a GP.
+Having a heavy automatic anti-artillery defense with low reload time and high damage output is generally a bad idea, as it breaks artiller-defenses relationship in RTS.
+
+Bulldog Level 2 amount of rockets from 4 to 8. (was 10 pre-nerf)
+Bulldog level 2 ClipReloadTime from 3500 back to 3000.
+Bulldog level 3 amount of rockets from 8 to 10 (was 10 pre-nerf).
+Bulldog level 2 ClipReloadTime from 3500 back to 3000.
+
+
+Solar Relay health from 4000 to 8000
+Solar Relay cost from 4000 to 6000$. (Cheaper than other factions, gives ECA a faster access to Superweapons)
+Solar Relay buildtime from 45 to 75 seconds.
+Solar Relay cooldown from 6 to 6:30.
+
+==================================================================== AIRCRAFT ==========================================================
+Tiger ammo clip from 10 to 8
+Tiger health from 260 to 240.
+Tigers only get 25% ROF boost from FAERIE_FIRE, instead of 50%.
+Tiger anti-air rocket damage reduced from 40 to 35.
+
+
+Harrier buildtime from 30 to 27.
+
+
+====================================================================UPGRADES & GENERAL POWERS==========================================================
+Armored Skirts upgrade increases Dozer speed by 25%.  (slightly above vanilla level)
+Manticore upgrade does not increase Dozer speed anymore.
+
+Ambush Tactics upgrade introduced, requires Bundeswehr Elites GP, makes Jagdmammuts stealthed when standing still.
+Significant improvement to defense-oriented Jagdmammuts. 
+Also, meant to test specific thing, and test ended up succesfully, hence it stays.
+
+
+
+Field Promotion cooldown from 2:30 to 2:00
+Field Promotion renamed into Bundeswehr Elites.
+
+Prepared Defences renamed to Forward Defences.
+Picking Forward Defences GP increase Fortification price from 0 to 100$.
+Forward Defences GP makes newly built Fortifications to be automatically garrisoned by a single Felin soldier. (credits: Hanfield)
+Forward Defences make Warhounds built as veterans. (credits: Hanfield)
+
+
+Tear Gas does not reduce range. 
+Tear gas reduces attack speed and damage output by 60%. Decreases chance of critical error.
+Tear Gas hotkey changed from G to ` (was interfering with Guard mode hotkey).
+
+
+
+Eurofighter Bomblet damage from 16 to 17.
+AoE from 30 to 35.
+Insignificant change at first glance, provides noticeable improvement, as more bomblets will overlap on a target.
+
+------------------------------------------------------------
+Pandora Protocol:
+-Solar Apocalypse, Nerve Gas are disabled from the protocol.
+-Pandora Protocol turns Smart Bomb into Nuclear Cobalt Bomb.
+-Cobalt Bomb's (previously Neutron Smartbomb) plane health from 1000 to 450.
+-Pandora speed increase from 20 to 30, SpeedDamaged from 18 to 25.
+-Pandora turn rate increase from 40 to 60.
+-Pandora damaged turn rate increase from 30 to 50.
+-Pandora Acceleration Damaged from 8 to 12.
+-Pandora pack/unpack time from 2475 to 1500
+-Pandura turret turn rate from 30 to 70
+-Pandora gun pitch rate from 30 to 50
+-Pandora health from 500 to 800.
+-Pandora armorset from TankArmor to HeavyArtilleryArmor
+-Pandora stealthes itself in 10 seconds of standing still. Any action breaks stealth.
+-Pandora ignores "Select All" order
+
+
+Pandora Protocol research time from 60 to 30 seconds.
+Pandora buildtimne from 35 to 20 seconds. 
+Pandora respawn buildtime delay from 1 minute to 1 minute 15 seconds.
+Pandora protocol tooltip updated.
+
+
+Fenris turnrate from 110 to 140.
+Fenris anti-infantry damage type from Poison to MELEE. Sorry, ChemSuits.
+Fenris armorset changed from TankArmor to BuratinoTankArmor (less damage from anti-tank infantry).
+---------------------------------------------------------------
+
++Venom Protocol increases Medic & Heavy Sniper health by 50%.
++Venom Protocol increases Jaeger speed on foot by 25%. 
+
+
+Manticore Protocol unlocks Vehicle Depot Reassembly individual upgrade.
+VD Reassembly reduces Leopard & Gepard buildtime by 50% for selected Vehicle Depot only, but forbids construction of other vehicles. Permanent.
+Manticore protocol makes all powered ECA buildings and defences self-repair outside of combat. Stacks with other repair means.
+Anvil Bots self repair.

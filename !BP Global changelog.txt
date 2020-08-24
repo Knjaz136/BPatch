@@ -1,0 +1,77 @@
+*****GLOBAL*****
+
++All Warfactory door animations are set at 2 seconds. (-1 second for Russia, USA, ECA ; -2 seconds for China).
+
+Aside from making buildtime comparisons possible, this allows to properly set low buildtime for units. If your buildtime is 7 seconds (Gattling tank), adding another 4 on top of it gives you completely different values.
+Due to this change all units of mentioned factions received their -1 or -2 seconds to real buildtimes.
+Reminder: This was the only way, as for example difference between 5 and 6 second buildtimes for old China warfactory is 5 seconds, 1 second from buildtime and 4 seconds from Door animation that disappears if buildtime is set to 5 and below.
+
++All Dozers got their speed reduced from 30 to 26. They get their speed back after specific Tier 1 upgrades.
++All Tier 0 defences, ECA excluded, require Warfactory equivalent to be built.
+this was done to make defense rushing less common and make people focus on actual units more, as well as prevent enemy supply rushing tactics with dozers on smaller maps.
+
++All mobile Tier 2 Anti Air units:
++Received damage from Small_arms from 25% to 50%
++Received damage from Gattling from 10% to 40%
++This drastically increases amount of units capable of efficiently harassing Tier 2 AA emplacements. ECA commando drop, USA infantry drop, sentry drones, technicals, gattling tanks, basically everything ground-based shooting bullets or armed with autocannons.
+
++Global (sorta) - all scouts units now provide drastically increased amount of experience. Mindlessly sacrificing your scout units into opponent will quickly bite you back.
++Amount of experience is decided by scout's units usefulness, faction it belongs to and other roles said scout unit could have outside of it's scouting capabilties.
+
+All infantry has quicker reaction times to hostile enemy targets within range.
+
++Tunnel Defenders, RPG Conscripts, Missile Defenders, Panzerfausts, Javelin Teams, Volunteer rocket armed soldiers, Disruptors in FLak Missile mode got their ROF increased by 11% against ground units in comparison to older vanilla RotR. 
++For basic AT infantry it only applies to their standard firing modes, MD excluded - applies to LasLock as well.
+I considered Rate of Fire increase a more consistent TTK (time to kill) change, unlike randomly changing amount of shots required to kill specific units by putting a 20-25% (unequal, even - some factions got 20% some 25%, China got 33% initially, things obviously broke completely and it got reverted) incresae to damage per shot.
+
++All Tier 2 buildings cost 2500$. (+500$ for GLA, ECA, China).
+This change was already added to vanilla from BP a while ago.
+
++ALL rank 5 GPs require 2 general points. Rank 5 itself gives 5 points.
++Rank 6 added, requires 13.000 exp total from Rank 1, or 8000 points from Rank 5. (Rank 5 - 5000 total experience from Rank 1). Provides +1 GP, will allow for a chance to adjust tactics and strategy deep into the game.
++Rank 5 Assault GPs - Spectre, FOAB, Napalm Strike, Grand Slam, Anthrax bomb, available by default on Rank 6 if they weren't picked earlier.
+This allows for interesting GP picks and gambles if game is expected to drag on, sacrificing early access to one of Rank 5 GPs for two additional GP points as game goes on.
+
++Camera height increased from 390 to 600.
+We are not in year 2001 anymore. If you're using gentools 7.0 or newer, your camera will be reset to vanilla. Still plenty of those used to older camera and choosing it over this setting, but alot of players are used to new one (or even higher, or slightly zooming in.)
+
++Random factions and player positions are revealed at startup.
+You still have to scout for actual tactics and opener used by opponent. 
+We ended up with specific (non-1v1 mostly) maps scouts arriving way too later than faction-counter oriented Build Orders had to be done, as such random was giving an advantage with no drawbacks for those playing factions more or less equally. Random is still often used by everyone who doesn't feel like playing specific faction.
+In teamgames this also prevents one team _not_ setting their positions in-game in order to receive additional advantage.
+
+
+======================REST OF CHANGES==================================
+=============================================
+Oil Wells experience given from 200 to 100.
+Oil Wells health from 2000 to 3000.
+
+
+==============================================================================
+
+TECHNICAL CHANGE (Experiment)
+NetworkCushionHistoryLength = 1000 ; was 10.
+
+Global: Memory pool returned to vanilla values. 
+
+Select 2.0 content (mostly tech/civilian buildings) added to BPatch, (Credits: Hanfield.)
+Instead of bringing up dropzones from 2.0, temporarily replaced them with oil wells. 
+Reasoning - those are often placed at secondary supply spot, but their relatively low income/minute considerably slows down the game. 
+Boosting their income to that of a full-fledged supply option will result in potential negative effects on those maps where Supply Zones are properly placed as possible expansion points.
+
+
+ECA defense bugs related to munition mechanic removed, munition mechanic rolled back to previous build.
+
+New armorset implemented - LightTankArmor. 
+Tank armor vs LightTankArmor
+POISON 25% vs 18%
+FLAME 25% vs 18%
+Everything else is identical.
+Done to reduce efficiency of Toxin Tractors/Dragon Tanks as tank counters, as light tanks (Hoppers, Scorpions) are relatively small units with low health pool and are vulnerable to Toxin Tractor's/Dragon Tank's splash damage)
+
+PropagandaStructureArmor resistance values
+EXPLOSION from 100% to 85%
+AURORA_BOMB from 125% to 150%. 
+
+This armorset is used for specific tier buildings among various factions. I equalized Explosion resistance with StructureArmorTough, used for other tier buildings.
+WHile at same time addressed their insane AURORA_BOMB resists (normally buildings get 200%, and unit damage output is balanced around that) which don't seem to be making much sense in this day and age, if not being outright zh leftovers.
