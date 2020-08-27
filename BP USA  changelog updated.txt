@@ -1,0 +1,277 @@
+USA. Originally faction was intended to be a "Jack of All Trades", with additional capabilities in aerial, drone and combined infantry arms warfare.
+Didn't quite feel that way in vanilla, also had a number of units and General Powers of questionable usefulness (or completely useless) and didn't play even close to what it was intended to be originally. 
+
+At same time, this faction had very high player-skill entry requirements, and even higher skill requirements to utilize it's mechanized infantry based gameplay. (which only Marakar and Bruce were doing to any reasonable level of efficiency). 
+All of that and many more was addressed, new build orders and available tactics created, faction now reliably feels like a "Jack of all Trades" with WIDE variety of available in-game options.
+
+==================================================================== GROUND UNITS ==========================================================
+ 
+Ranger cost from 110 to 120.
+Ranger health from 180 to 200
+
+Laslock Aura AoE increased by 50%. Makes it easier to reach other missile defenders around laslocker.
+Laslock PreFireDelay reduced by 0.5 seconds.
+
+Javelin Teams benefit from Veteran Company GP.
+
+(Seals are same as in older pre-1.5 1.87 RotR, and are a subject to change, no clear vision on them has been accepted yet).
+
+Dozer now  can switch between normal and defense buildings.
+Dozer: Powerplants and SDZs are added to Defense commandset.
+
++Osprey replaced with Armored Supply Truck. 
++(TankArmor, Crusader-like health pre-upgrade, Paladin-like post upgrade, retains full speed when damaged, repair themselves over time (Cannot be repaired at warfactory, weird engine limitation))
+Okay, this is a big one. Been discussed literally for years during official RotR development, many reasons brought up (mostly T2 AA sieging supplies), 
+last straw was existence of a specific infantry drop tactic that broke specific matchups (involving slower factions) on larger maps in teamgames.
+Among removing those T2 AA sieges entirely and fixing broken matchups, this now created a variety of build orders capable of harassing USA supplies, removed previous overreliance on AA spam (hello USA mirrors).
+Ospreys will very likely return in a different form.
+
+Recon Drones experiencevalue from 10 to 30. 
+Recon Drone health bonus after Drone Armor upgrade from 50 to 100.
+Cheap, expendable, low viewrange thus experience value upon death for this scout is set to low.
+Health bonus makes it a bit more viable as an Avenger alternative to provide targeting laser 50% ROF boost vs illuminated targets.
+
+USA Sentry Drone health bonus after Drone Armor upgrade from 100 to 75.
+USA Sentry Drones do not get new ArmorSet after Drone Armor upgrade, anymore.
+Sentry drone damage received from tank guns increased from 100% to 150%.
+Important bugfix - Drone Control Center workshop fixed - as a result global drone autorepair rate reduced by 50%. (Credits: Hanfield)
+Reduces Sentry drone survivability after upgrade and makes them being hardcountered by tank guns, especially relevant for GLA vs USA matchups.
+
+Upgraded Drones get 20% less dmg from INFANTRY_MISSILE, from 50% to 40%. (same amount as Sentry Drones by default in BP).
+Sentry drones counter AT infantry an Bikes now, AT Infantry and Bikes counter humvees, Humvees counter T0 AA/Tanks/Technicals, those things kill Sentry Drones.
+
+Repair Drone and Sentry Drone added to primary warfactory commandset. 
+Repair drone slotcount from 2 to 1 (slots taken when put into Starlifter).
+Repair Drone point defence decal disabled. (it was using Avenger's, and Avenger's PDL got changed). It's radius is equal to repair drone repair radius anyway.
+
+Mule Drone cost from 400$ to 900$.
+Mule Drone buildtime from 5 to 8 seconds
+These things are completely overpowered in hands of high-APM/micro player and have been this way for years.
+We should all feel ashamed at ignoring such an imbalanced unit for all this time.
+
+AT Drone can act as a backup supply gatherer. Around 15% below that of a default unupgraded Osprey in income speed. Does not benefit from Supply Lines. (This change will be reverted in future after addition of Armored Supply Trucks).
+AT Drone acceleration increased from 70 to 200.
+AT drone turn rate increased from 300 to 400.
+AT Drone price (for 2) from 800$ to 700$
+AT Drone buildtime from 10 seconds to 7 seconds.
+AT Drone armorvalues.
+Gatt/SA/CV - from 60% to 80%.
+Sniper - from 50% to 75%
+AP - from 10% to 25%	
+Stealthjet - from 5% to 25%
+FLAME - from 75% to 85%
+LASER from 75% to 100%.
+AT Drone experience given - from 40 to 35.
+
+Guardian Drone does not receive health increase when digged in.
+Guardian Drone cost from 750 to 500.
+Guardian Drone buildtime from 9 to 6 seconds.
+
+Ambulance armor values: 
+Poison from 30% to 20%
+Radiation from 0% to 10%.
+Doesn't die nearly instantly inside GLA Anthrax bomb field anymore.
+
+Crusaders available on Tier 0. (unlike in older RotR versions).
+Crusaders cost from 1000 to 900$.
+Crusader DBS from 2000 to 2140. (~ -5% ROF)
++Hover Mode requires Advanced Training upgrade.
+-10% cost -5% dps. Crusaders back at their role of cost-efficient first-line damage-soakers of USA.
+
+Humvee turn rate increased by ~15% (Complex value change, not just TurnRate).
+Humvee Turret turn speed increased by 50%.
+Humvee cost from 700 to 650.
+Humvee ToW cost from 300 to 350.
+Humvee TOW upgrade buildtime from 10 to 6 seconds.
+Humvees with Machinegun get 25% damage boost from targeteers, instead of fuckton ROF boost.
+This makes vees ALOT more responsive in hands of all players, makes them shine at their ToW missile kiting role.
+
+Microwave tank damage received from GATTLING from 30% to 10%
+Can now charge into Minigunner Teams and burn those fuckers.
+
+Patriot hotkey changed from R to O.
+Patriots now properly react to enemies while under stealth. (GPS Scrambler)
+
+Avenger turret turn rate from 180 to 360. Noticeably improved reaction time to incoming aircraft.
+Avenger range from 230 to 245.
+Avenger PDL range from 110 to 130.
+Avenger targeting laser benefits from Laser Rangefinder upgrade so it can remain behind Paladins while illuminating targets. (fire range  bonus).
+PDL AoE increase makes them alot easier to use in combined arms force.
+
+Paladin PDL range from 100 to 120.
+Paladin CoaxMachinegun damage from 1.0 to 2.0 per shot (100% buff)
+Paladin buildtime from 18 to 17.
+Paladin damage per shot from 80 to 90.
+Paladin DBS from 2000 to 2200. (-10% ROF).
+Paladin ExperienceValue from 150 150 250 500 to 125 125 200 400 
+
+Considerable improvement to USA PDLs capability, now they have best generalist anti-rocket/missile mechanic among all factions.
+Don't forget about existence of Laser Rangefinder upgrade, avengers and Paladins are meant to work together.
+
+
+WASP Hive
++Deploy Combat Drones ability now can be used when multiple WASP Hives are selected.
+
+Bradley added to Warfactory.
+Bradley price from 1000 to 1100.
+Bradley autocannon clip size from 8 to 10.
+Bradley ToW damage from 30 to 36.
+Bradley speed from 45 to 40. Damaged from 35 to 30.
+Bradley transport slot count from 4 to 5.
+Bradley boosts surrounding US infantry range by 15%, other factions - 10%. Does not work with Horded units.
+Bradley boosts surrounding infantry ROF by 15%. Does not work with Horded units.
+Bradley detects stealth, similar stats to Sentry drones. (AoE of stealth detect is subject to change in future).
+Bradley slowly heals infantry around it.
+Bradley heals infantry units inside it.
+EXPERIMENT (as of 2.990A): Bradleys do not require Veteran Company for now. While this change certainly has potential to unbalance the faction and matchups,
+I feel like Bradleys create way too much strategies/unit synergies within faction to keep them locked.
+
+Bradley is USA's player swiss knife of an IFV, meant to massively reduce skill level requirements (and pathfinding issues, by combining multiple vehicles into one - even if at significantly less efficiency) to effectively use USA combined arms infantry tactics.
+
+
+
+
+==================================================================== AIR UNITS ==========================================================
+
+Chinook cost reduced from 1400 to 1100$
+Chinook Damage Per Shot reduced by 25% across all weapons.
+Chinooks receive additional 33% health from Support Aircraft Armor.
+
+Littlebird vision range from 300 to 500. 
+Description updated accordingly.
+Now has additional role of an aerial scout, vision range comparable to a Mishka, outranges all T0 AA including defenses and even some T2 AA out there.
+
+Comanche restealth delay increased from 0.5 to 2.8 seconds. (to reduce AA AI fuckery via micro).
+Comanche cost increased from 1500$ to 1700$ back in the day.
+
+Razor Bomber from SHW added, works as counter to large blobs of low health vehicles/infantry. generic bomber aircraft, for Tier 2. No invul, no special abilities. Flies in, drops it's bomb, flies out. No bonus damage vs buildings. 
+Cheaper than NHawk. \ Bombs fall at around same speed (and have same range) as MiG Bombs, plane itself 35% faster than MiG Bomber, 10% slower than raptor, upgradable with CMs, bombs deal ~280 Explosion  damage in ~25 AoE, 115 in 40 AoE.
+Deals increased damage to infantry in it's AoE. Will one-shot everything up to a Felin in it's secondary AoE.
+1500$ base price.
+
+This bomber is a dedicated anti-trash unit of USA, highly efficient vs masses of infantry or fragile units like buggies, light tanks, Chinese hordes, etc. Very inefficient against tough targets.
+Gives faction a limited ability to inflict AoE damage in specific situations.
+
+Hunkter Killers require Tier 1. That's due to T0 Crusaders.
+
+Blackhawk's price increased from 720$ to 840$. Total cost from 1600$ to 1800$. This includes new 120$ ranger pricetag.
+
+Drone Lifter:
++Requires Airfield.
++Dronelifter experience value from 50 to 80.
++Cost from 1000$ to 900$.
++Dismiss function refunds 66% of Drone Lifter's value. 
++Health from 300 to 200.
++Upgrade health bonus from 75 to 50.
++BuildDelay from 10 to 3 seconds (can order a new Dronelifter as soon as the beacon disappears).
++BuildLimit from 3 to 4. A small bug appeared that allows you to order your second dronelifters without 3 second delay.
++Speed from 150 to 160. Speed damaged from 60 to 120.
++Acceleration from 60 to 160. Damaged from 30 to 80.
++LiftSpeed (landing/going up) from 120 to 220. LiftDamaged from 80 to 160.
++Braking from 100 to 150.
++Dronlifters are now considered as Drones and thus self-repair themselves after Drone Center is upgraded. (at a rather quick rate, might require armorset/hp revision (increasing HP while nerfing armorset)) 
+Drone Lifter has Mule drone aura on it now, works on infantry only. (+20% ROF +20% dmg). Stacks with Bradleys..
+
+Starlifter
++Speed from 100 to 120.
++Turn rate from 50 to 60.
++Dismiss function refunds 66% of Starlifter's value.
++Starlifter Slot amount from 22 to 26. (Average vehicles take 3 slots, Paladins 4. Increases amount of normal vehicles from 7 to 8, Paladins from 5 to 6 + 1 drone (or 2 repair drones).
++Starlifter repairs vehicles and drones  in large radius beneath itself, 25% faster than a repair drone.
+
+
+
+==================================================================== BUILDINGS ==========================================================
+USA Command Center now produces 3 power. 
+Been noticing there's a specific window in early game as US when players often find themselves lacking 1-2 power, which doesn't bode well with drone-centric strategies.
+
+Powerplant health from 800 to 1200.
+Powerplant power produced from 5 to 8. 
+Powerplant upgrade power addition from 5 to 3.
+(so total power output from USA powerplants increased by 10%, from 10 to 11).
+This combined gives USA player ALOT less headache with power management, as well as making it possible to run with default unupgraded powerplants.
+
+Drone Hive requires WF or AF.
+Drone Hive range from 250 to 280. 
+Drone Hive vision range increased from 360 to 450.
+Drone Hives are unable to shoot through buildings like Guard Towers, are more expensive, unable to shoot at air like other Tier 0 turrets. 
+Hence it's given it's own identity of having highest range, as well as viewrange, among Tier 0 defenses.
+
+Protector missile turret anti-air maximum missile speed from 400 to 600
+(makes it more viable vs fast moving air targets).
+
+Cyclops cost from 1400$ to 1300$.
+Cyclops range increased by 10%. 
+(A bit of experimental change, from one PoV it's stationary and thus needs more coverage. From other, this is instant death, more instant than twins are, and doesn't require any Twin Fang like babysitting).
+
+Firebases are back. Require SpecOps unlock. Requires Tier 1.
+
+
+Airfield health from 1500 to 2000. USA special perk now, harder to kill airfields.
+Airfield requires Warfactory. US Air opening in teamgames is officially killed due to being extremely powerful on large maps.
+
+Drone Control Center and Detention Camp can only be built after Warfactory, Airfield doesn't count anymore.
+Drone Center and Detention camp share important upgrade(s) - sentry drone guns for a start.
+
+SDZ changes:
+stage 1:
+SDZ income reduced by 14% (1/7). (timer increased from 2 minutes to 2 minutes 20 seconds).
+SDZ health from 1000 to 800.
+This applies same nerfs to SDZ survivability as all other sececo in game received in vanilla, SDZs were ignored for no reason.
+This also reduces SDZ flat income rates to compensate for increased USA Early-Mid-game faction strength in BP.
+
+Stage 2:
+SDZ Cooldown and amount of cash per drop decreased by 33%. This makes income more frequent without changing income speed.
+SDZs are now considered as hostile objects and are engaged automatically by combat units and defenses.
+Units do not think twice when having sececo units/buildings next to them anymore and engage automatically, attack-move also works now.
+No need to micro those SDZ's (and telecoms) anymore.
+
+
+Particle Cannon health from 4000 to 8000
+Particle Cannon cost from 4000 to 7000
+Particle Cannon buildtime from 45 to 75 seconds.
+====================================================================UPGRADES==========================================================
+Drone weapons upgrade from 1000$ to 500$.
+Drone Weapons upgrade buildtime from 30 to 15 seconds.
+Critical upgrade, made cheap and accessible. Can be done in both Detention Camp and Drone Center.
+
+Composite Armor is available by default.
+Laser Rangefinders require Armored Company, available on Tier 2 in Strategy Center.
+Laser Rangefinders increase range of all US Tanks and Avenger target designator by 10%.
+
+Advanced Training price from 1500$ to 1000$.
+Advanced Training research time from 45 to 30.
+Advanced Training upgrade increases Dozer speed by 25%. (slightly above vanilla level)
+
+ChemSuit Upgrade damage reduction:
+Poison - from 5 times to 3 times.
+Flame - from 3 times to 2 times.
+Explosion/Aurora bomb (all artillery in the game) - from 0 to 15% dmg reduction. (i.e. 85% dmg received after upgrade).
+Cumulative effect on HTL/Veterancy, non-linear.
+(Makes poison/flame units a bit more viable vs chemsuit upgraded infantry, while making chemsuits more viable outside of encountering poison/flame units).
+
+
+==========================================================GENERAL POWERS==========================================================
+
+Air Mobility GP renamed into Support Aircraft.
+
+Low Profile Approach (stealth on Hunter Killers/Comanches) ability hotkey changed from L to C.
+
+A10 health increased from 600 to 900.
+A10 health bonus from upgrade increased from 150 to 220
+Description changed accordingly.
+Now A-10 got a new identity of being best at bruteforcing concentrated AA networks.
+
+Leaflet duration reduced from 20 to 15.
+
+Guardian Angel, Aka TMD (rank 5 laser plane, for those who don't know).
+TMD duration from 24 to 18 seconds.
+TMD laser range from 180 to 240.
+TMD laser DelayBetweenShots increased by 50%. (aka Rate of Fire reduced by 33%).
+TMD laser now targets all kinds of projectiles. Yes, it can shoot down tank shells, artillery shells, ECA Howitzer shells, Pandora shells, Topol warheads, and even Rank 5 GP bombs if they attempt to drop at area covered by TMD.
+TMD DID NOT RECEIVE SPEED BUFF FROM VANILLA. Makes it alot less counterable, and uncounterable GP stuff is something frown upon around here, unless you are GLA.
+
+In general, this change makes TMD alot more versatile in terms of it's use, being very useful to your ground force even if you do not have a single air unit.
+
+Particle Cannon beam is always set to "fast mode". 
+
