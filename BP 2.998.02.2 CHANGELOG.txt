@@ -1,0 +1,1197 @@
+TODO List:
+Cosmetic changes (Darkside, Shady Deals, Warhounds, Armored Supply Truck voicing)
+
+
+BPATCH 2.998.02.2
+***ECA***
+Leopard range rescale rolled back due to Tier 0 Leopards. Base range down from 210 to 190, as in vanilla, upgraded Leos are same as before.
+Leopard turn rate from 120 to 100. Damaged from 100 to 80.
+bugfix: Digout health values back to normal.
+
+BPATCH 2.998.02.1
+***USA***
+bugfix: Repair drones repair vehicles once again after DCC Workshop upgrade.
+
+
+***GLA***
+Anarchists gain 60% increased Primary Splash radius from Arm the Mob upgrade.
+===================================================================================================
+BPATCH 2.998.02.0
+***Global***
+
+All Superweapon buildtime returned to vanilla level (75-90 seconds to 45 seconds).
+All Superweapons will become 50% cheaper after 12 minutes of the game passed.
+All Superweapon experience values from 400 to 800. (for those RARE situations when it gets destroyed).
+
+Players now hear when somebody is using GLA Rebel Ambush GP.
+
+***Russia***
+
+Tesla Tanks do not benefit from ERA upgrade anymore.
+Tesla Tanks benefit from Advanced Coils upgrade.
+Shocktrooper Tesla Gun does not get additional range from Advanced Coils upgrade anymore, and gets same bonus as Tesla Tank.
+
+
+Gaus Cannons upgrade renamed to Advanced Coils.
+Advanced Coils decrease Tesla Tank and Shocktrooper Tesla Gun damage by 10%.
+Advanced Coils increase Tesla Tank and Shocktrooper Tesla Gun amounts of shots per Clip by 33%. 
+Teslas were one of the rare units in the game with practically no scaling mechanic whatsoever, outside of flat Industrial plant bonus.
+
+
+Pion now additionally requires Veteran Repair Crews Unlock.
+Pion PreFiredelay from 5 to 4 seconds.
+Pion scatter radius from 120 to 100.
+More tuning for Pions, also removes headache of having completely different unit behavior and potential with and without Recovery mechanic.
+
+Surveillance missile scatter radius increased from 70 to 100. Makes it harder to do aircraft sniping on airfields.
+
+***GLA***
+Stinger Soldiers can now traverse cliffs after Infantry Boots upgrade, like Rebels and Tunnel Defenders do.
+
+Marauder buildtime from 8 to 11 seconds. 
+The time has finally come, Marauders are closer to Heavy tanks than Mediums in their overall capability, and 8 seconds is a buildtime of a Quad.
+
+DarkSide upgrade does not reduce dushka, stinger site, quad health by 20% anymore.
+DarkSide upgrade bounties reduced from 50% to 40%.
+
+Junk Repair renamed to Junk Engineering. 
+Junk Engineering additionally increases Technical health by 8%.
+
+***ECA***
+Cobalt bomb radiation field damage increased by 20%.
+
+Wotan Turnrate further increased from 130 to 145 (vanilla - 90)
+Wotan Turnrate when damaged further from 90 to 95.
+
+***China***
+Lotus stealth detection rate increased (not the visual part, but actual stealth detection mechanic).
+Prevents buildings from disappearing in plain sight.
+
+
+===================================================================================================
+BPATCH 2.998-1
+
+***GLA***
+
+GLA Rebels and Tunnel Defenders can traverse cliffs. (Best used with Waypoint mode due to engine limitations)
+
+GLA Lair (Sneak Attack Tunnel upgrade) cost from 1000$ to 2000$.
+GLA Lair buildtime from 35 to 50 seconds.
+GLA Lair now trains Rebels and Tunnel Defenders in groups of 5 and with 15% discount.
+GLA Lair is permanently stealthed.
+
+Dushka vision range reduced from 400 to 330.
+When all Dushka or Stinger Site gunners/soldiers are killed, their vision range drops to 100.
+
+Tunnel vision range further increased from 350 to 425. (vanilla - 200).
+Barracks vision range from 200 to 100.
+This further solidifies tunnel's role as a map awareness tool.
+
+Tunnel health bonus from Fortification upgrade from 100% to 150%. (vanilla - 50%).
+(Tunnels aren't getting their guns from vanilla, definitely not yet).
+
+Recycler (all variants) speed increased from 40 to 45 (same as scorps/quads, so Recyclers dont slow down your army)
+
+Demotruck Demotrap purchase cost from 200$ to 150$. (These are weaker than normal demotraps).
+
+***Russia***
+
+Black Bear does not benefit from Chinese Propaganda Rate of Fire bonus. 
+This is done in order to soften the effect of % based healing from Propaganda, that Black Bear gets massive benefits from due to extremely high base health pool.
+Black Bear base Rate of Fire decreased by additional 5%.
+Black Bear AA missile base Rate of Fire decreased by additional ~7%.
+Bit more tuning to Black Bear.
+
+
+Kashtan vision range reduced from 500 to 360. (average among all defenses in game).
+Radar outpost vision range increased from 200 to 300. 
+Doesn't make sense for the Radar to have such a low vision range. Observation Post is still vastly superior with it's 600 range.
+
+
+***USA***
+Drone Hive vision range increased from 360 to 450.
+Meant to be highest vision range/highest range Tier 1 base defense in game.
+
+TMD will not target Gepard/Skyshield projectils anymore.
+
+***ECA***
+Guard Tower vision range increased from 360 to 400. 
+It's a tower, after all.
+
+Howitzer positions show remaining ammo, as in vanilla.
+
+Fenris anti-infantry damage type from Poison to MELEE. Sorry, ChemSuits.
+Fenris armorset changed from TankArmor to BuratinoTankArmor (less damage from anti-tank infantry).
+
+Wotan Array speed from 30 to 40.
+Wotan Array turn rate from 90 to 130. 
+Wotans are already performing very fine against normal aircraft - hence I cannot change their damage or range values any further,
+ but at same time they noticeably underperform vs GP Planes, without excelling at much else.  So instead this unit is given it's own identity and advantages over other T2 AA,
+making it the most mobile T2 AA out of them all, which should help to keep up with the rest of ECA's ground force when it decides to go on offensive and properly positioning Wotans for GP Plane kill.
+
+Mammoth Tank (w/ Manticore Protocol)
+Healing delay from 2 seconds to 1 seconds.
+Healing amount from 20 to 25. 
+Further polishing of MT stats.
+
+***China***
+Bunker vision range from 360 to 320.
+
+EXPERIMENTAL CHANGE (rollback or nerfs are likely):
+Hopper Tanks does not anymore receive total of 40% dmg increase increase from Uranium Shells. (vanilla - 25%).
+Hopper Tanks receive double bonus from Nationalism, Patriotism and Uranium Shells upgrades. 
+Tank description changed accordingly.
+
+***Global***
+PropagandaStructureArmor resistance values
+EXPLOSION from 100% to 85%
+AURORA_BOMB from 125% to 150%. 
+
+This armorset is used for specific tier buildings among various factions. I equalized Explosion resistance with StructureArmorTough, used for other tier buildings.
+WHile at same time addressed their insane AURORA_BOMB resists (normally buildings get 200%, and unit damage output is balanced around that) which don't seem to be making much sense in this day and age, if not being outright zh leftovers.
+
+
+bugfix: bounties properly work from command truck and do not require BM anymore.
+bugfix: dummy weapons should stop attacking things they shouldn't attack.
+AI: russian industrial plant commandset done for mizo
+technical: some memory pool/network value changes.
+bugfix: TMD does not attack Skyshield rounds anymore.
+=======================================EVERYTHING BELOW THIS LINE IS ADDED TO A GENERAL CHANGELOG LIST============================================================
+BPATCH 2.997
+
+***Russia***
+
+Berkut Delay Between Shots increased by 100% (from 198 to 396)
+Berkut Primary damage per shot increased by 37.5%. (from 40 to 55). 
+Secondary damage and AoE unchanged.
+
+Light Armaments upgrade increases Dozer speed by 25%. (slightly above vanilla level)
+Light Armaments upgrade increases Mauler movespeed by 10%.
+
+
+***GLA*** 
+
+Rebel cost increased from 65$ to 75$. (was borderline too good, new changes were the last straw).
+
+Fanatical Devotion does not anymore increase Tunnel Defender, Stinger Soldier and RPG Insurgent movespeed by 25%.
+
+Worker Shoes renamed to infantry boots.
+Infantry Boots increase Rebel speed by 20%. (from 25 to 30)
+Infantry Boots increase Tunnel Defender speed by 40%. (from 20 to 28)
+Infantry Boots increase Stinger Soldier speed by 25%. (from 20 to 25)
+Infantry Boots increase RPG Insurgent speed by 25% (from 20 to 25)
+
+Demotruck Demotrap detonation distance from 30 to 40. (same as demotrap). 
+Demotruck demotrap secondary damage from 150 to 200 (50% of the Demotrap's)
+
+***China***
+Nationalism upgrade increases Dozer speed by 25%. (slightly above vanilla level)
+
+***USA***
+Advanced Training upgrade increases Dozer speed by 25%. (slightly above vanilla level)
+
+***ECA***
+Armored Skirts upgrade increases Dozer speed by 25%.  (slightly above vanilla level)
+Manticore upgrade does not increase Dozer speed anymore.
+
+===================================================================================================
+BPatch 2.996-D
+
+***China***
+Propaganda Airship speed from 25 to 40. (Gattling-level)
+Propaganda Airship health reduced by 33%.
+Propaganda Airship gattling damage output vs ground targets increased by 40%.
+Propaganda Airship damage output  vs air targets increased by 20%.
+Propagand Airship can now fire on the move.
+Propaganda Airship cost from 1200 to 2100$.
+Propaganda Airship buildtime from 20 to 25 seconds.
+Propaganda Airship requires Mass Mobilization GP. 
+Propaganda Airship requires Propaganda Center instead of Breeder Reactor.
+
+War Propaganda does not heal units anymore until Nationalism upgrade is researched.
+
+
+***ECA***
+Gun Turret/Mortar Pit Tier swap experiment is over, all changes rolled back due to issues with Dragon Tank INF_MISSILE resistance combined with anti-building damage.
+
+
+;================================================================
+BPatch 2.996-C + Hotfix 2
+***Global***
+Player factions are revealed on start. 
+
+***Russia***
+Pion range from 730 to 850. 
+Pion shell speed from 130 to 200 (Nuke Cannon speed)
+Pion PreFire from 6 to 5.
+Pion TurnRate from 40 to 60.
+Pion EXPLOSION dmg module Secondary AoE damage from 100 to 120.
+Pion anti-tank dmg module secondary AoE damage from 40 to 30.
+Rhino & Shilka buildtime in Nuclear Breakthrough from 30 to 24 seconds.
+
+Topol-M (the one that fires single warhead) now has pinpoint accuracy, previous one made it completely unpredictable.
+
+***China***
+Overlord turret idle scanning interval from 360 to 120.
+
+***ECA***
+Munition bunkers may now construct dozers and warhounds, as such they can partially substitute FieldComs.
+
+Leopard Vision + Shroud clearing range from 200 to 240. (10 above their upgraded range)
+
+Mammoth Tank ) added, requires Rank 3 GP. Available for construction from R&D Compound only."Very Heavy Tank" class, same overall balancing parameters as Leopards.
+(CREDITS: Enigma (author of "Babushka Revenge" modification for Rise of the Reds) for ECA colors, voicing taken from Shockwave mod)
+Gameplay wise, these things allow for a new combinations in GP tree development for ECA players that went more agressive route upon reaching mid- and early late-game, and make faction slightly easier to understand for newer players, unfamiliar with concept of "Defense/Turtler/Crawler" faction in RTS games.
+This unit does (should-) not break the general weaknesses and strengths of the faction, as per combination of price, firepower, range and other stats this is not an Overlord equivalent.
+
+Tear Gas hotkey changed from G to ` (was interfering with Guard mode hotkey).
+
+;================================================================
+BPatch 2.996-B
+***GLA***
+Technicals only drop GLA salvage on Elite/Heroic rank.
+
+Anarchists receive +33% movement speed from Arm the Mob upgrade.
+
+Combat drugs GP unlocks Stimpaks upgrade.
+
+***China***
+Hopper tanks only drop GLA salvage with 50% chance.
+
+***ECA***
+Finally removed BNetwork upgrade cameo from Mortar Trucks (Cosmetic change).
+
+***USA***
+Armored Supply Trucks will repair themselves over time. (Cannot be repaired at warfactory, engine limitation).
+
+;================================================================
+BPatch 2.996-A
+
+Global: Memory pool returned to vanilla values.
+
+***USA***
+A10 health increased from 600 to 900.
+A10 health bonus from upgrade increased from 150 to 220
+Description changed accordingly.
+
+Mule Drone cost from 400$ to 900$.
+Mule Drone buildtime from 5 to 8 seconds.
+
+Sentry drone damage received from tank guns further increased from 125% to 150%.
+
+Drone Control Center workshop fixed - as a result global drone autorepair rate reduced by 50%. (Credits: Hanfield)
+
+Osprey replaced with Armored Supply Truck. 
+(TankArmor, Crusader-like health pre-upgrade, Paladin-like post upgrade, retains full speed when damaged)
+
+***Russia***
+Tesla Tank Vision (AI-related) and Shround Clearing range from 200 to 230. (20 above attack range)
+
+Bugfix:
+Once Boris starts locking on target with aimed shot, it will shoot even if target goes out of range. 
+Done  to prevent critical errors.
+
+***GLA***
+Scorpion Rocket Upgrade research time reduced from 30 to 25 second.
+Armor Piercing Ammo Upgrade research time further reduced from 40 to 30 seconds.
+Technicals are built with first level of salvage after AP Ammo upgrade. (Credits: Hanfield)
+
+Technical experiencevalue changed from 30 30 50 100 to 20 20 40 80
+;================================================================
+BPatch 2.995-A
+
+***Russia***
+Nuclear Breakthrough upgrade price reduced from 2000 to 500. 
+It's considered a Breakthrough that player chooses when he's low on resources, but requires large amounts of concentrated firepower to break through specific area.
+
+Pions remade into a long range support artillery. 
+Pre-fire delay from 3 to 6 seconds.
+Reload time from 18 to 30 seconds.
+buildtime from 60 to 80 seconds.
+Minrange from 300 to 450 minrange, 
+Maximum range from 480 to 730. (Pandora-like).
+Damage reduced by 40%.
+
+Turn Rate reduced by 50%. 
+Speed reduced by 20%.
+
+
+Hellion experience requirements 0  100 250 400 to 0 150 320 500.
+
+***USA***
+Support Aircraft Armor upgrade now affects Chinooks (+33% health).
+
+***ECA***
+Dog vision range reduced from 500 to 350. (same level as USA Recon drone).
+
+***GLA***
+GPS Scrambler Truck experience value from 5 to 150.
+
+;================================================================
+BPatch 2.994
+***Global***
+Rank 5 Assault GPs - Spectre, FOAB, Napalm Strike, Grand Slam, Anthrax bomb, available by default on Rank 6 if they weren't picked earlier.
+
+***Russia***
+Shilka price (used to calculate bounties) reduced from 1000 to 600.
+Rhino price (used to calculate GLA bounties) reduced from 800$ to 700$
+
+Shocktrooper DPS reduction after coil rifle upgrade removed.
+Shocktroopers become more efficient against explosion-resistant vehicles after Coil Guns upgrade.
+
+Tunguskas once again lose their smokes until Tier 1 upgrade (light weapon systems).
+
+Nuclear Breakthrough does not improve Armored Reserves GP anymore.
+Nuclear Breakthrough allows to refurbish Rhinos, Shilkas and Pions in Industrial Plant.
+Pion Nuclear Artillery added to Russia. (Credits Alex.Brain)
+(compared to Nuclear Cannon - 3k cost, 1min BTime, Same AoE, +50% primary damage, +25% secondary damage, +6% range, poor accuracy, -10% projectile speed, 4 second pre-fire delay, +80% reload time, large radiation fields.)
+
+Berkuts cost from 1900 down to 1500.
+Berkut machinegun removed. 
+Berkut starts with 5 autocannon rounds, gets upgraded to 8 after Tier 1 upgrade.
+Berkut autocannon damage from 35 to 40.
+
+***ECA***
+Warhounds now properly react to enemies while under stealth (Credits: hanfield)
+Pioneers start with mortar weapon instead of assault rifle. (Credits: Hanfield)
+Wotans now properly react to enemies while under stealth.
+
+Engineering Fortifications repair speed brought up to MTP level.
+Fortification buildtime from 5 to 10 seconds.
+
+Grand Mortar primary AOE from 15 to 30.
+Grand Mortar secondary AoE Damage from 75 to 125.
+
+Telecom Towers are now considered as hostile objects and are engaged automatically by combat units and defenses.
+
+
+***USA***
+SDZ are now considered as hostile objects and are engaged automatically by combat units and defenses.
+
+Patriots now properly react to enemies while under stealth.
+
+***GLA***
+Bounties moved from Black Market to Command Truck, as in Vanilla.
+;==========================================================================
+Bugfix - removed duplicated AI file.
+
+BPatch 2.993
+
+***GLA***
+Quad Cannon AA damage from 5 to 6.
+Quad cannon canister round AA damage from 8 to 9
+Quad Cannon Salvage level 1 anti-ground damage reduced from 11.3 to 10.5
+Quad Cannon Salvage level 2 AA damage from 9 to 8.
+Quad Cannon Salvage level 2 anti-ground damage reduced from 12.5 to 12
+
+
+Marauder Salvage Level 1 and Level 2 reload time increased by 10%. (still lower than non-salvaged marauder).
+
+BM21 Grad minrange from 150 to 200. Done due to mobility changes and resulting capabilities of grads to evade opponent ground units.
+
+***Russia***
+
+Berkut's 57mm autocannons reload without landing on the airfield. 25 second reload time.
+Berkut's price from 1500 to 1900 pre IP. (1275 to 1530 post-IP).
+
+===============================================================================
+BPatch 2.992
+Global (sorta) - all scouts units now provide drastically increased amount of experience. Mindlessly sacrificing your scout units into opponent will quickly bite you back.
+Amount of experience is decided by scout's units usefulness, faction it belongs to and other roles said scout unit could have.
+
+***GLA***
+Observation Van experience from 5 to 30. (have to keep reltively low since they are also used as decoys, and meant to be spammed).
+Command Truck gains +50% movement speed after Observation Scanners Upgrade.
+DarkSide automatically removes all buggies, grads and artillery recyclers from players posession. (credits: Hanfield)
+
+Ural vision range increased from 200 to 350. Underlines its ambush-oriented nature.
+
+***China***
+Listening Outpost experiencevalue from 5 to 100. (Overall most powerful scouting unit in the game due to being stealthed).
+
+***Russia***
+Mishka ExperienceValue from 5 to 50. 
+Tu-22 Backfire missile AoE increased by ~8%.
+Nuclear Breakthrough upgrade arms Tu-22 with nuclear missiles. Slightly more damage and AoE. Fires a single missile with double amount of health.
+
+***USA***
+Recon Drones experiencevalue from 10 to 30.
+Microwave tank damage received from GATTLING from 30% to 10%
+Littlebird viewrange further increased from 450 to 500. (300 in original), to make it more efficient scouting helicopter.
+TMD wont attempt to shoot down bullets.
+SDZ Cooldown and amount of cash per drop decreased by 33%.
+
+Sentry Drones receive 25% more damage from tank guns.
+
+***ECA***
+Dogs received no changes, stay at 25 exp like before.
+MortarTrack armorset from TankArmor to ERATankArmor.
+
+
+
+===============================================================================
+BPatch 2.991
+Global: Instead of bringing up dropzones from 2.0, temporarily replaced them with oil wells. 
+Reasoning - those are often placed at secondary supply spot, but their relatively low income/minute considerably slows down the game. 
+Boosting their income to that of a full-fledged supply option will result in potential negative effects on those maps where Supply Zones are properly placed as possible expansion points.
+
+
+***Russia***
+Sentinel production time increased from 25 to 30 seconds. 
+Makes it slightly harder to field Sentinel deathball.
+
+
+***GLA***
+Command Truck speed equalized with worker speed. 
+Will probably remove transport slots in the future and replace with something more useful. Maybe even worker production post R3, for example.
+
+
+-------------------------------------------------------------
+BPatch 2.990A
+Bugfix:
+Fanaticism now properly boosts range to 7%, instead of 10%.
+
+***USA***
+EXPERIMENT: Bradleys do not require Veteran Company for now. While this change certainly has potential to unbalance the faction and matchups,
+I feel like Bradleys create way too much strategies/unit synergies within faction to keep them locked.
+
+USA Command Center now produces 3 power. 
+Been noticing there's a specific window in early game as US when players often find themselves lacking 1-2 power, which doesn't bode well with drone-centric strategies.
+
+Razor bombers now deal increased damage to infantry targets in it's AoE. Will one-shot everything up to a Felin in it's secondary AoE.
+May be later reverted/scaled down later.
+Razor Bomber description updated.
+
+Starlifter repair AoE further increased by 25%.
+Makes it easier to properly position them over your units.
+
+USA Scout Drone health bonus after Drone Armor upgrade from 50 to 100.
+USA Sentry Drone health bonus after Drone Armor upgrade from 100 to 75.
+USA Sentry Drones do not get new ArmorSet after Drone Armor upgrade, anymore.
+
+***ECA***
+Jagdmammuts do not require Bundeswehr Elites (Field Promotion) anymore. 
+Jagdmammuts are not stealthed when standing still by default anymore. 
+Ambush Tactics upgrade introduced, requires Bundeswehr Elites GP, makes Jagdmammuts stealthed when standing still.
+Should make things feel more vanilla for newcomers, also helps ECA vs Sentspam.
+
+***GLA***
+
+GLA Barracks now receive 5 times more damage from GATTLING, 20% more from SMALL_ARMS.
+GLA worker buildtime from Hideout from 3 to 5 seconds. If this change will be too critical, it will get rolled back.
+GLA Worker buildtime in Supply Stash unchanged.
+Tested, Warfactory timings did not change IF first worker is used on a supply.
+GLA Hole armorset to same as of Barracks.
+
+Mercenary Grenadiers fire in burst shots of 3 after DS upgrade, Damage per Minute remains the same.
+
+***China***
+Bugfix: ECM Drop plane type changed fron R5 Napalm bomber to a slower, easier to counter one.
+Bugfix: Upgraded Infernos do not benefit from Fanaticism range bonus anymore.
+
+***Russia***
+Bugfix: Observation Tower upgrade back to 1000$ from 400$
+
+
+***USA***
+
+===========================================================================
+BPatch 2.988Hotfix
+
+***GLA***
+Sabotage duration reduced from 10/15/20 to 5/10/15 seconds.
+Sabotage damage changed from 50/100/150 damage to 75/100/150 damage.
+
+
+BPatch 2.988
+***ECA***
+Warhounds under GPS Scrambler effect now properly auto-engage enemies.
+
+***GLA***
+Demotraps restealth themselves in 1 second, instead of 30 times per second. 
+This is what probably prevented units from attacking them on detection.
+
+***Russia***
+Shocktrooper experience requirement for ranking up from 0 300 400 600 (3 sentinels or 5 kodiaks for heroic), to 0 150 250 450
+
+Berkut price rolled back from 1700$ to 1500$.
+Berkut health reduced from 180 to 135.
+Berkuts gain +45 health after Goliath upgrade.
+Berkut 57mm guns locked behind Heavy Weapon Systems upgrade.
+
+Heavy Weapon Systems upgrade cost from 1000 to 1500$.
+Heavy Weapon Systems upgrade research time from 30 to 45.
+
+Nuclear Breakthrough now affects Armored Reserves. 
+Adds additional plane with same payload.
+Strategic Missile Silo health increased from 2400 to 3600.
+Topol build limit reduced from 2 to 1.
+
+***GLA***
+Recycler price from 1400$ to 1700$.
+Recycler experience values tweaked.
+Toxin Recycler experience value from 50 to 300.
+Toxin Recycler health from 400 to 300.
+Toxin Recycler swapped with Tremor Recycler in faction requirements until it's decided what to do with toxin recycler. (I.e., Russian Tier 2 for Toxin recycler, and vice versa for Tremor one).
+
++Heavy Explosives GP now increases Terrorist and Demotrap AoE by 15%.
+
+***China***
++Pyro armorset changed from HumanArmor to ShocktrooperArmor
++Pyro cost changed from 300 to 350
++Pyro Health from 100 to 125.
+
+***ECA***
++EXPERIMENTAL CHANGE: Mortar Pit and Gun Turret swapped in tiers. (Solar Reactor for Mortar Pit, Research Center for Gun Turret)
+
+;-----------------------------------------------------------------
+BPatch 2.98A
+***Global***
+AIData file is now part of the main INI file. 
+Certain unit behavior altered to reduce load.
+
+Most infantry now quickly reacts to threats in their firing range.
+
+***Russia***
+
+Berkuts cost increase from 1500$ to 1700$.
+
+Sentinel Warden Missile Pods:
+Secondary damage on AA missiles removed.
+FLAME dmg module secondary damage buff removed (back from 20 to 10)
+
+Black Bear EMP resistance of all kinds is removed.
+A slight 5% resistance added vs dedicated anti-tank weaponry (like Javs, Jagds, etc).
+
+Tesla towers overcharge ability added. (credits: Hanfield).
+
+***China***
+Hopper Tank experience given upon destruction further reduced to from 50 to 40 for no veterancy, other veterancy levels adjusted as well (40 40 80 120 vs 60 60 120 200 in vanilla)
+Hopper tank turret turn rate increased from 180 to 270.
+
+Nuclear Cannon AoE reduced by 25%. 
+Nuclear cannon regains it's AoE after Isotope Instability upgrade.
+
+Nukeneers gain large radiation fields after Isotope Instability upgrade. EXPERIMENTAL CHANGE, POTENTIALLY TOO IMBA.
+
+Nuclear Engines are now safe and do not make vehicles explode.
+Isotope stability upgrade renamed into Isotope Instability upgrade and affects Nuke Cannons and Nukeneers.
+
+-------------------------------------------------------------
+BPatch 2.97
+
+***ECA***
+
++Warhounds can be built in Regional Command. Still require Field Command.
++Warhound speed nerf rolled back, it's speed now back from 15 to 18.
++Warhound repair radius increased from 80 to 110. (by 37%)
+
++Mortar Truck damage type changed from EXPLOSION to AURORA_BOMB to compensate for their loss of Battlenetwork. (double dmg vs buildings)
++This is now a highly efficient siege unit.
+
++Moleminer mine model changed with different one from ZH, should provide noticeable performance increase on old systems. 
+
++Mortar Pit health from 1000 to 810.
+
+***GLA***
+DarkSide upgrade moved to Hideout from Chemical Plant.
+
+***China***
++Chinese mine model replaced with one from Zero Hour. 
++Massive performance increase. 
+
+***Russia***
++Hunchbacks can now transport a single VDV vehicle - BMD-1, BMD-4.
+
+-------------------------------------------------------------
+BPatch 2.96
+
+***Global***
+New armorset created - LightTankArmor. 
+Tank armor vs LightTankArmor
+POISON 25% vs 18%
+FLAME 25% vs 18%
+Everything else is identical.
+
+***ECA***
+Warhound secondary damage changed from 35 to 60.
+Warhound secondary AoE increased from 30 to 35.
+Warhound weapon timeout after digging in from 3 to 6 seconds. You can't dig in right in the middle of a fight and expect them to instantly become operational.
+Warhound digged-in health bonus from 400 to 100.
+Warhound default health from 200 to 500.
+Warhound health bonus from Armor Skirts from 100 to 150. (proper 25%).
+Warhound C4 ability locked behind Munitions GP.
+
+Vehicle Assembly cost from 2500$ to 2000$.
+
+Telecom Tower buildtime yet again to 24 seconds (from 20 in previous patches and 16 in vanilla).
+
+***USA***
+Razor Bomber speed increased by 10%.
+RazorBomber acceleration increased from 110 to 200. (Widowmaker = 230)
+RazorBomber accelerationwhendamaged (on red health) increased from 30 to 100. (Widowmaker = 120).
+
+***GLA***
+Scorpion armorset changed from TankArmor to LightTankArmor
+
+Ural Truck buildtime from 18 to 14 seconds.
+
+Sabotage animation fixed. (by Hanfield).
+
+
+***China***
+HoppperTank armorset changed from TankArmor to LightTankArmor
+
+=======================================================================
+-------------------------------------------------------------
+BPatch 2.95
+***China***
+
+Listening Outpost changes rolled back
+
+
+
+-------------------------------------------------------------
+BPatch 2.94
+GLobal
+
+BPatch is now beginning to transfer to RotR 1.87 Public Build 2.0. Credits: Hanfield. 
+Currently playable both on 2.0 and 1.4, but lacks certain 2.0 models and tech buildings.
+
+
+***Russia***
+
+BBear cost further reduced to 4.200 (3570 post IP).
+BBear received additional resistance to EMP weapons.
+BBear Buildtime from 40 to 30 seconds.
+BBear flame dmg received further from 15% to 13%.
+BBear mass increased so it can't be sent flying even by FOAB.
+BBear experience requirements to rank up reduced due to massively reduced firepower in 2.93.
+
+***China***
+
+Hopper tank price from 500 to 400. (i.e. total price from 1000 to 800).
+Hoppper tank experienceValue upon being killed reduced from 60 60 120 200 to 50 50 100 150.
+Hopper tank health from 300 to 250.
+Hopper tank buildtime from 10 to 9 seconds (for 2).
+Hopper tank Optimized Production values adjusted accordingly. (from 1860 to 1488, BT from 15 to 14 seconds).
+Hoppers receive 33% turn rate increase from Nuclear Engines upgrade.
+
+Listening Outposts require Tier 1 Electronic Warfare upgrade to be stealthed when deployed.
+
+
+***ECA***
+
+Dozer health/armor stats rolled back to vanilla. Implemented system with "ECA dozer specifically cannot be sniped by MiGs while in 
+repair aura radius"  would be totally unintuitive for a player to learn. 
+ECA dozers benefit from Armor Skirts upgrade, +50% health.
+ECA dozer speed increase from 2.92 cancelled and rolled back to BP levels.
+Further changes pending.
+
+
+;-----------------------------------------------------------------------
+BPatch 2.93
+
+***Russia***
+Goliath bugs fixed.
+Goliath now properly deflects lock-on from most missiles.
+
+Black Bear concept changed to the one I proposed during it's initial implementation in RotR.
++50% Reload Time
+-28% damage per shot
+-9% range.
+-31% AA missile damage/shot
+AA missiles inflict AoE damage.
++60% health.
+25% less damage from JET_MISSILE
+Flame dmg received from 19% (Sentinel values) to 15%.
+Self-repairs after 5 seconds of not receiving damage at the speed of MTP. Takes around 1 minute to restore 50% of it's health. Stacks with MTP.
+Price set at $4675 post-Industrial Plant.
+
+
+***ECA***
+Battlenetwork ability and upgrade temporarily removed until fixed. (Massive FPS drops, both in BP and in vanilla.)
+
+;-----------------------------------------------------------------------------
+BPatch 2.92
+
+***China***
+Shenlong locomotor equalized with Overlord Locomotor 
+Preupgrade - turn rate from 75 to 60.
+Post upgrade - turn rate from 75 to 90.
+
+***Russia***
+
+Hellion locomotor secondary stats improved. (acceleration, braking).
+
+***ECA***
+Picking Forward Defences GP increase Fortification price from 0 to 100$.
+Forward Defences GP makes newly built Fortifications to be automatically garrisoned by a single Felin soldier. (credits: Hanfield)
+
+Fortifications require barracks.
+
+Dozer speed increased by 10% in comparison to other factions.
+Dozer turn rate increased from 75 to 90
+
+Solaris Relay cost from 7000$ to 6000$. (ECA's will be supposed to get earlier access to SW).
+
+Telecom Towers require Satellite Relay.
+Satellite Relay produces income equal to 3 Telecom Towers.
+
+***GLA***
+Angry Mob cost back to 800$. (was 600$ because tester "complaints", ended up op as fuck).
+
++++Ok, that's potentially a big one, but all the GLA faction buffs in BP were meant to lead to this point.
+Buggy speed reduced from 90 to 80, speeddamaged from 80 to 70.
+Rocket Buggies cannot fire their precise rocket salvos while on the move.
+Rocket Buggy cost from 900$ to 1000$.
+
+==============================================================================================
+BPatch 2.91
+
+***GLA***
+Scorpions now have full Rate of Fire on the move.
+Scorpion Missile speed cooldown from 15 to 10 seconds.
+Scorpion Missile maxspeed from 150 to 200, minspeed from 120 to 160.
+AP Rockets upgrade doubles Scorpion Missile Speed.
+
+***USA***
+Starlifter repair radius increased by 20%
+Starlifter repair speed increased by 20%.
+Upgraded Drones get 20% less dmg from INFANTRY_MISSILE, from 50% to 40%. (same amount as Sentry Drones by default in BP).
+
+***ECA***
+Dozers will survive a MiG snipe if under repair aura.
+============================================================================================
+On to BPatch 2.9 (currently 2.9)
+***Global***
+
+All mobile Tier 2 AA:
+Received damage from Small_arms from 25% to 50%
+Received damage from Gattling from 10% to 40%
+
+***Russia***
+Shmel trooper smoke grenade hotkey changed from M to C.
+Shmel post-upgrade weapon received a minor buff. (+7% AoE damage).
+
+VDV Paratrooper ExperienceValue from 40/40/70/90 to 20/20/40/60, equalized with that of VDV RPG Trooper.
+VDV Paratrooper damage per shot from 8 to 9
+Ammo per clip from 8 to 10.
+Clipreload time from 1000 to 1250.
+
+VDV RPG tooper Thermobaric launcher clipreloadtime from 3500 to 3000. 
+(still does NOT benefit from Veterancy ROF increase).
+
+Kodiak ATGM dmg from 110 to 120, DBS from 3000 to 3200.
+Kodiak health from 700 to 710.
+
+Tunguskas now properly receive 15% damage buff to their anti-ground autocannons after upgrade. (bugfix)
+Tunguska health changed from 420 to 430.
+Tunguska fires 2 missiles each 2 seconds instead of 4 missiles each 4 seconds.
+Tunguska max missile speed from 400 to 500, min missile speed from 120 to 300, acceleration unchanged.
+Tunguska AI guard mode from 250 to 300.
+
+Badger Recovery Vehicle renamed into MTP Repair Vehicle.
+
+Russia supply truck cost from 850$ to 800$
+
+Hind locomotor brake speed from 50 to 100.
+Hind autocannon damage output from 7 to 9 per shot. (reminder - Hinds cost 3500$ with VDV teams inside).
+
+Kashtan spin up time removed. (Still deals 40% less damage than upgraded gattling cannon / second.).
+
+Emergency Recovery GP renamed into Veteran Repair Crews.
+Recovery GP cooldown from 2:30 to 1:45. (remember, MTPs cant recover anymore).
+Recovery GP now make MTPs built as Veterans (means +20% health).
+
+Topols ignore "select all" order.
+
+***GLA***
+Barracks, Warfactory, Hideout do not need to cancel their production to evacuate units.
+
+Partisan weapons brought to vanilla stats (=buffed).
+
+Battlebusses back to Tier 2.
+Bombtruck cost from 700 to 900.
+Bombtruck base damage from 1500 to 1000.
+
+Demotrucks require Demo GP.
+Demotrucks moved to Tier 2.
+
+Grad health reduced from 200 to 150, to accomodate for it's greatly increased mobility. Otherwise, mobility needs to be reverted back to older versions.
+Buggy Ammo cost from 1500$ to 2500$
+
+Tesla Recycler damage output reduced by 25%-30%. Practically no effect on it's effectiveness against infantry.
+
+***ECA*** 
+Dozer cost from 1000 to 900.
+ECA vehicle depot reassembly Leopard production doesn't requrie China Warfactory anymore. (bugfix)
+Mortar Pit projectile speed from 200 to 280 (old RGO numbers, worked pretty well back in the day).
+
+Forward Defences make Warhounds built as veterans. (credits: Hanfield)
+Warhound bugfix.
+Warhound C4 cooldown from 12 to 25 seconds.
+
+Jaeger sniper rifle minrange reduced from 120 to 40.
+
+Pandora ignores "Select All" order.
+
+***USA***
+Javelin teams temporarily do not get veterancy after VetCompany is picked. (hotfix).
+Paladin damage per shot from 80 to 90.
+Palading DBS from 2000 to 2200.
+
+Ambulance armor values: 
+Poison from 30% to 20%
+Radiation from 0% to 10%.
+
+Littlebird vision range from 300 to 450. 
+Description updated accordingly.
+
+ChemSuit Upgrade damage reduction:
+Poison - from 5 times to 3 times.
+Flame - from 3 times to 2 times.
+Explosion/Aurora bomb (all artillery in the game) - from 0 to 15% dmg reduction. (i.e. 85% dmg received after upgrade).
+Cumulative effect on HTL/Veterancy, non-linear.
+
+Dozer: Powerplants and SDZs are added to Defense commandset.
+
+Protector missile turret anti-air maximum missile speed from 400 to 600
+
+Leaflet duration reduced from 20 to 15.
+Leaflet bugfix: leaflet fall mechanics performs as well as in vanilla now.
+
+Cyclops range increased by 10%. EXPERIMENTAL CHANGE (From one PoV it's stationary and thus needs more coverage. From other, this is instant death, more instant than twins are, and doesn't require any Twin Fang like babysitting).
+
+***China****
+
+Troop Crawler long range scanner range reduced from 540 to 360. (by 33%)
+
+Cluster Mine plane health further from 450 to 400.
+===========================================================================
+BPatch 2.8
+***ECA***
+Tiger damage/rocket back from 30 to 40. (vanilla).
+Tiger ammo clip from 12 (10 in vanilla) to 8
+Tiger buildtime back from 27 to 18. (vanilla).
+Tiger cost back from 1500 to 1400.
+Health remains at 240.
+Tiger exp value back from 50 to 80.
+Tigers only get 25% ROF boost from FAERIE_FIRE, instead of 50%.
+Tiger anti-air rocket damage reduced from 40 to 35.
+
+Heroic Wotans do not have minimum firing range.
+
+Solar Reactor damage received from JET_MISSILES from 100% to 80%.
+
+Manticore Protocol unlocks Vehicle Depot Reassembly individual upgrade.
+VD Reassembly reduces Leopard & Gepard buildtime by 50% for selected Vehicle Depot only, but forbids construction of other vehicles. Permanent.
+
+***RUSSIA***
+
+Observation Tower upgrade cost from 200$ to 1000$. Object cost changed as well (for GLA bounties).
+Topols will now kill Tunnel holes upon direct hit.
+Topol secondary damage reduced (bugfix, did not previously reduce it upon implementing secon damage module).
+
+***GLA***
+
+Battlebus stats are brought to RotR 1.87-2.0 build, base BBus cost reduced by 250$, Tunnel Defenders removed. (-1000$).
+
+===============================================================================
+***Russia***
+BPatch 2.6 + 2.7
+
+
+Nuclear Breakthrough turns Missile Silo into Strategic Missile Silo, which reloads automatically.
+Nuclear Breakthrough silo warhead count from 8 to 9.
+Nuclear Breakthrough now makes silo reload automatically, and prevents it from being automatically revealed to everyone.
+Nuclear Breakthrough unlocks construction of a single Topol mobile ICBM launcher.
+Nuclear Breakthrough Ravager tank removed.
+Radiation from Strategic Missile Silo warheads lasts longer than normal ones.
+Nuclear Breakthrough upgrade issues anti-rads and antidotes to all of Russian infantry and trucks/other unarmored ground vehicle drivers (every single one of them).
+Nuclear breakthrough research time from 60 to 20. (due to need to wait for missile silo realod as well).
+
+
+Blackout Satellite moved from Experimental Weapon Systems to Nuclear Breakthrough.
+Blackout Satellite AoE from 420 to 550.
+Blackout satellite can be only deployed from Command Bunker (no room on the fast access panel on the right atm).
+
+Airborne Breakthrough:
+Unlocks BMD1 and BMD4 assault teams.
+Grizon Rapid Deployment Teams removed.
+
+Recovery GP cooldown from 2:30 to 2:00.
+Recovery ability removed from MTP.
+
+
+***ECA***
+Mortar Trucks do not require an unlock anymore. Their stats will get adjusted depending on future test results.
+Telecom Tower buildtime from 24 (16 originally) to 20 seconds.
+
+***GLA***
+ DemoTruck damage type from EXPLOSION to AuroraBomb.
+
+=================================================================================================
+BPatch 2.3
+
+***USA***
+Humvee armor % vs INFANTRY_MISSILE from 70% to 100%
+Humvee armor % vs EXPLOSION from 100% to 125%
+Composite armor upgrade returns these values to normal.
+
+
+Sentry Drone armor (before upgrade) % vs INFANTRY_MISSILE from 50% to 40%
+Sentry Drone armor (before upgrade) % vs GATTLING COMANCHE_VULCAN SMALL_ARMS from 50% to 60%
+
+Comanche missile damage reduced from 50 to 40. 
+Comanche missiles receive 25% damage boost from Laser Guided Missiles.
+
+BPatch 2.25
+***GLOBAL***
+Remove DrawEntireTerrain, set max camera to 500 - CHECK
+
+
+***USA***
+Humvee builttime returned to 10 seconds (from 9)
+
+American dozer now  can switch between normal and defense buildings.
+
+Comanche restealth delay increased from 0.5 to 2.8 seconds. (to reduce AA AI fuckery via micro).
+Comanche cost increased from 1500$ to 1700$ back in the day.
+
+***ECA***
+
+Telecom Tower buildtime from 16 to 24
+
+**Russia***
+
+Reduce amount of charges for Arena back to 8
+
+Arms suppliers had their model reverted to older versions of the mod, which significantly reduces load on your CPU and improves game speed.
+
+***GLA***
+All production buildings with tunnel function can now evacuate units without commandset switching, but cannot select 
+which ones to evacuate.
+Angry mobs move more coherently.
+
+Scorpion tank gun damage increased from 22.5/30/40 to 30/40/54 - CHECK
+Scorpion health further decreased from 300 to 270. - CHECK
+
+GLA Eca Recycler range increased from 210 to 230. (projectile lifetime +10%).
+
+BM21 Grad speed from 30 to 40. 
+BM21 Grad turnrate from 63 to 90.
+
+Stinger Soldier cost from 300 to 250$.
+Fanatical devotion increases stinger soldier speed to 25%.
+
+***China***
+China Nuke cannon from 2000$ to 2200$
+China NC buildtime from 18 to 25 sec.
+China NC minrange increased from 150 to 220.
+
+=========================================================================================
+BPatch 2.0
+
+***USA***
+
+TMD duration from 24 to 18 seconds.
+TMD laser range from 180 to 240.
+TMD laser DelayBetweenShots increased by 50%.
+TMD laser now targets all kinds of projectiles. Prioritizes missiles and ballistic missiles, though.
+Current bug where TMD targets bullets might be fixed in future.
+
+
+Avenger turret turn rate from 180 to 360. Noticeably improved reaction time to incoming aircraft.
+Avenger range from 230 to 245.
+
+Particle Cannon beam is always set to "fast mode".
+
+Advanced Training price from 1500$ to 1000$.
+Advanced Training research time from 45 to 30.
+
+
+***GLA*** 
+Rebels and Fanatics got their speed back and do not benefit from ArmTheMob upgrade anymore. (Fanatical Devotion or w/e it's called).
+
+
+***Russia***
+
+ERA increases sentinel health by 15%
+Sentinel default health from 2100 to 1800
+
+
+Small bugfixes (like TMD requires Rank 5 now, costs 2 points like other rank 5 GPs, etc).
+
+
+1.99
+------------------------------------------------------------------------------
+***Global***:
+Default 2.5k/ per 5 minutes income removed.
+
+***USA***
+Avenger PDL bug of 1.4 is fixed, they fire again.
+
+Chronosphere removed, Guardian Angel GP returned.
+Guardian Angel single flare duration (lifetime) from 4 to 5 seconds.
+
+Paladin ExperienceValue from 150 150 250 500 to 125 125 200 400 
+
+Humvee turn rate increased by ~15% (Complex value change, not just TurnRate).
+Humvee Turret turn speed increased by 50%.
+Humvee cost from 700 to 650.
+Humvee build time from 10 to 9 seconds.
+Humvee ToW cost from 300 to 350.
+
+***GLA***
+Sabotage duration works properly, instead of 5/5/5, now it's 5/10/15
+
+Rebel & Fanatic movement speed decreased from 25 to 20. (same as Tunnel Defenders/RPG Insurgents).
+Fanatical devotion increases Rebel, Tunnel Defender, Fanatic, RPG Insurgent speed by 25%.
+
+***Russia***
+Shocktrooper Bombadier burst mode reload time further to 7.6 seconds. (from 6.0 in vanilla, total 26% reload time increase).
+Kodiak ExperienceValue from 150 150 250 500 to 125 125 200 400 
+
+***ECA*** 
+Pandora protocol Cobalt Bomb GP plane health further reduced from 500 to 450 hp.
+
+***China***
+Mine Plane health further reduced from 500 to 450 (750 vanilla)
+Mine Plane speed reduced by 20% (from 125 to 100).
+
+------------------------------------------------------------------------------
+1.38 Changelog.
+
+USA
+
+Firebases are back. Require SpecOps unlock. 
+
+Leaflets and TMD are rolled back to vanilla 1.87.
+
+Next-Gen Research is added as Rank 5 GP, replaces TMD. Unlocks 2 mutually exclusive upgrades, that give access to
+1) TMD (Guardian Angel) call-in.
+2) Chronosphere Prototype.
+
+1.37 Changelog.
+------------------------------------------------------------------------------
+BPatch now requires Public Build 1.4
+
+Russia:
+
+Shocktrooper buildtime from 8 to 7. (same as in Vanilla).
+
+Bombardier requires Shock Division GP.
+Bombardier secondary damage reduced to 62% of Primary one. (from 40 to 25, was 100% in Vanilla, which is weird occurence).
+Bombardier burst mode scatter radius from 30 to 45.
+Bombardier burst mode reload time from 6000 to 6600.
+Bombardier cost from 500 to 600.
+Bombardier requires Tier 2.
+Bombardier healing from medkits from 2/sec to 5/sec (same as normal Shocktrooper in BPatch).
+
+Golem available by default.
+
+Gauss Cannons upgrade requires Experimental Technologies (Tesla GP), instead of Shock Division GP.
+
+Boris Grenade Launcher primary damage from 50 to 65, secondary damage from 25 to 35.
+Boris Grenade Launcher projectile speed from 200 to 140.
+Support Loadout renamed to Siege Loadout.
+
+Grizon Rapid Deployment team is available for construction once Airborne Breaktrhough upgrade has been selected. 
+Comes with 4 VDV Gunners, 2 VDV RPG, 2 Iglas.
+Costs more (2720 vs 2365 if built separately with BMPs) + Grizons have noticeably worse stats.
+Buildtime of 15 seconds. (same as KOdiak).
+
+Costs significantly more than the same combination of BMP, if built separately + Grizon has noticeably worse stats than BMP.
+
+GLA
+
+GPSS Jammer special ability hotkey from J to C
+
+
+ECA
+
+Bloodhound battlegroup now requires Field Command OR Warfactory.
+
+China
+
+Blimp experiencevalue from 50 50 100 200 to 200 200 300 400.
+So there's at least SOME drawback to spamming them as pure meatshields and nothing else.
+
+ECM Tanks now have Electronic Warfare upgrade cameon on them.
+
+USA
+Leaflet cooldown from 4:30 to 5:00
+Leaflets now again have a delay of 2.5 seconds before activation. (as in vanilla).
+Leaflet duration from 20 to 15 seconds.
+Leaflet AoE from 75 to 135.
+   
+;-----------------------------------------------------------------------------
+
+BP 1.36A changelog.
+Russia
+Ravager Tank added, requires Nuclear Breaktrhough.
+
+Command Center would show which out of the 3 Breakthrough upgrades got researched.
+
+ALL WF Doors in the game are set to 2 seconds (-1 second for USA/ECA/Russia, -2 for China).
+
+Grizzly now detects stealthed ground vehicles too.
+
+
+USA
+Terror Drone buildtime  from 9 to 7.
+
+BP 1.35 Changelog. Will get added to main changelogs later on.
+====================================================================
+USA
+Drone Hive range from 250 to 280. 
+
+Humvee TOW upgrade buildtime from 10 to 6 seconds.
+
+Drone weapons upgrade from 1000$ to 500$.
+Drone Weapons upgrade buildtime from 30 to 15 seconds.
+
+
+China 
+
+Minigunner teams require Propaganda Center.
+
+ECM Tank health from 300 to 200.
+ECM Tanks get +100 health after Crawler Recon Upgrade
+Crawler Recon upgrade from 1000 to 1500$.
+Crawler Recon upgrade renamed into Electronic Warfare.
+
+Nuke Cannon resistance to FLAME from 25% to 50%.
+
+
+
+GLA
+Gunner Mercs (prone mode) get 15% dmg bonus from Combat Drugs, instead of ROF.
+
+
+=======================================================РУССКАЯ ВЕРСИЯ=================================================
+====================================================================
+USA
+Drone Hive радиус стрельбы с 250 до 280. 
+
+Humvee TOW время постройки апгрейда на ракету для хамви - с 10 до 6 секунд.
+
+Drone weapons стоимость исследования апгрейда с 1000$ до 500$.
+Drone Weapons время исследования апгрейда  с 30 to 15 секунд
+
+
+China 
+
+Для постройки команды Миниганнеров нужен Propaganda Center.
+
+ECM Tank здоровье с 300 до 200.
+ECM Tanks получают +100 здоровья после улучшения на Crawler Recon Kit (апгрейд, дающий Troop Crawlers способность просвечивать стелс на расстоянии)
+Crawler Recon Kits стоимость апгрейда с 1000 до 1500$.
+Crawler Recon Kits апгрейд переименован в Electronic Warfare.
+
+Nuke Cannon уязвимость к типу урона FLAME (огонь) с 25% до 50%.
+
+
+GLA
+Gunner Mercs (режим лёжа) получаем 15% прибавку к урону от генеральской способности Combat Drugs, вместо скорострельности. Техн. причины.
